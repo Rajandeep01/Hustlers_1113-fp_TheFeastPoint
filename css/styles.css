@@ -1,0 +1,651 @@
+/* CSS stylesheet*/
+body{
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+#container{
+    background-color: #34b449;
+    color:white;
+}
+
+.moblogo{
+    display: block;
+    width:50%;
+    height:50%;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+.banner{
+    display: none;
+}
+
+#menu .banner{
+    margin-top:1em;
+}
+
+ul.nav{
+    position: static;
+    top:0;
+    margin:0px 0px 10px 0px;
+    padding:0;
+    overflow:hidden;
+    list-style-type: none;
+    background-color: #155720;
+    opacity:85%;
+    clear:both;
+    text-align: center;
+       
+
+}
+
+li.nav{
+    text-align: center;
+    
+}
+
+li.nav a{
+    display:block;
+    text-align:center;
+    text-decoration:none;
+    background-color: #438d4f;
+    padding-top: 7px;
+    margin-top: 5px;
+    margin-bottom:0;
+    padding-bottom: 7px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: 30vw;
+    margin-right: 30vw;
+    border-radius: 2em;
+    color:white;
+    font-size: large;
+    
+}
+li.nav a:hover{
+    color: rgb(255, 0, 13);
+    font-style: italic;
+
+}
+
+.intro{
+    text-align: center;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #21692d;
+    margin: 2em;
+    padding:1em;
+    border-radius: 2em;
+}
+
+.heading{
+    font-family: 'Nerko One', cursive; 
+    font-size:5vw;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    margin:2em;
+}
+
+#arti{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#arti article{
+    text-align:center;
+    background-color: #21692d;
+    border-radius: 2em;
+    font-family: 'Nerko One', cursive;
+    font-weight: lighter;
+    font-size: 4vw;
+}
+
+#article1{
+    margin-left:8vw;
+    margin-right:8vw;
+    clear:both;
+    margin-bottom: 4vw;
+}
+#article2{
+    margin-right:8vw;
+    margin-left:8vw;
+    clear:both;
+}
+#arti article p{
+    text-align:center;
+}
+
+#arti article img, .abt_img{
+    width:70%;
+    margin-right: auto;
+    margin-left: auto;
+    
+
+}
+
+#arti article p.heading{
+    font-family: 'Nerko One', cursive;
+    font-weight: lighter;
+    font-size:4vw;
+    text-shadow: 3px 3px 8px #113617 ;
+}
+
+.heading{
+    font-family: 'Nerko One', cursive; 
+    font-size:5vw;
+}
+
+#menu .heading{
+    margin:0;
+    border: 5px solid rgb(72, 106, 218);
+    margin-left:30vw;
+    margin-right:30vw;
+    border-radius:1em;
+    text-shadow: 3px 3px 8px black;
+}
+
+table, th, td {
+    border: 1px solid rgb(189, 189, 189);
+    border-collapse: collapse;
+    
+}
+
+table{
+    width:100%;
+}
+
+tr:nth-child(even){
+    background-color: #268035;
+}
+
+td,th{
+    padding-top: 4px;
+    padding-bottom:4px;
+}
+
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color:  rgb(72, 106, 218);
+    
+}
+
+#menus .heading, .abtheading{
+    background-color: #438d4f;
+    margin-left:30vw;
+    margin-right:30vw;
+    border-radius:3em;
+}
+
+.abtheading{
+    background-color: #438d4f;
+    margin-left:15vw;
+    margin-right:15vw;
+    border-radius:3em;
+}
+
+section{
+    text-align: center;
+}
+
+li{
+    list-style-position: inside;
+}
+
+dt{
+    font-weight: bold;
+    font-size: larger;
+}
+
+footer{
+    clear:both;
+    text-align: center;
+    background-color: #201712;
+    margin-top: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    color:white;
+}
+
+footer a{
+    text-decoration: none;
+    color:white;
+
+}
+
+.inps{
+    color:white;
+    background-color: #34b449;
+    padding: 5px 2px;
+    margin:5px;
+    border-radius: 1em;
+}
+
+
+
+
+
+
+
+
+/*Styles for tablet viewport*/
+@media only screen and (min-width:600px){
+
+    #container{
+        background-color: #bd421c;
+        color:white;
+    }
+
+    .moblogo{
+        display:none;
+    }
+
+    .banner{
+        display: inline;
+    }
+
+    .banner{
+        width:100%;
+        height:auto;
+        clear:top;
+     }
+
+    ul.nav{
+        text-align:center;
+        position:sticky;
+        top:0;
+        margin:0;
+        padding:0;
+        overflow:hidden;
+        list-style-type: none;
+        background-color: #bd421c;
+        opacity:85%;
+        clear:both;   
+
+    }
+    
+    li.nav{
+        float:left;
+        
+    }
+
+    li.nav a{
+        display:block;
+        text-align:center;
+        text-decoration:none;
+        background-color: #bd421c;
+        padding-top: 14px;
+        margin-top: 0px;
+        padding-bottom: 0px;
+        padding-left: 16px;
+        padding-right: 16px;
+        margin-left: 0vw;
+        margin-right: 0vw;
+        border-radius: 0em;    
+        color:white;
+        font-size: large;
+        
+    }
+    li.nav a:hover{
+        color: rgb(255, 0, 13);
+        font-style: italic;
+
+    }
+    .intro{
+        text-align: center;
+        font-family: 'Architects Daughter', cursive;
+        font-size: 20px;
+        font-weight: bold;
+        background-color: #832f16;
+        margin: 2em;
+        padding:1em;
+        border-radius: 2em;
+    }
+
+    h1{
+        text-align: center;
+        font-family: 'Raleway', sans-serif;
+        font-family: 'Work Sans', sans-serif;
+        margin:2em;
+    }
+
+    #arti{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    #arti article{
+        text-align:center;
+        background-color: #bb886e;
+        border-radius: 2em;
+        font-family: 'Nerko One', cursive;
+        font-weight: lighter;
+        font-size: 4vw;
+    }
+
+    #article1{
+        margin-left:8vw;
+        margin-right:8vw;
+        clear:both;
+        margin-bottom: 4vw;
+    }
+    #article2{
+        margin-right:8vw;
+        margin-left:8vw;
+        clear:both;
+    }
+    #arti article p{
+        text-align:center;
+    }
+
+    #arti article img, .abt_img{
+        width:70%;
+        margin-right: auto;
+        margin-left: auto;
+        
+
+    }
+
+    #arti article p.heading{
+        font-family: 'Nerko One', cursive;
+        font-weight: lighter;
+        font-size:4vw;
+        text-shadow: 3px 3px 8px #832f16 ;
+    }
+
+    .heading{
+        font-family: 'Nerko One', cursive; 
+        font-size:5vw;
+    }
+
+    #menu .heading{
+        margin:0;
+        border: 5px solid rgb(85, 209, 151);
+        margin-left:30vw;
+        margin-right:30vw;
+        border-radius:1em;
+        text-shadow: 3px 3px 8px black;
+    }
+
+    table, th, td {
+        border: 1px solid rgb(189, 189, 189);
+        border-collapse: collapse;
+        
+    }
+
+    table{
+        width:100%;
+    }
+
+    tr:nth-child(even){
+        background-color: #5f4435;
+    }
+
+    tr:hover {
+        background-color: #92634b;
+    }
+
+    td,th{
+        padding-top: 4px;
+        padding-bottom:4px;
+    }
+
+    th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: rgb(85, 209, 151);
+        
+    }
+    #menus .heading, .abtheading{
+        background-color: #bb886e;
+        margin-left:30vw;
+        margin-right:30vw;
+        border-radius:3em;
+    }
+    .abtheading{
+        background-color: #bb886e;
+        margin-left:15vw;
+        margin-right:15vw;
+        border-radius:3em;
+    }
+
+    section{
+        text-align: center;
+    }
+    
+    li{
+        list-style-position: inside;
+    }
+
+    dt{
+        font-weight: bold;
+        font-size: larger;
+    }
+
+    .inps{
+        background-color: #bd421c;
+    }
+
+}
+
+
+
+
+
+
+/* Styles for desktop viewport*/
+@media only screen and (min-width:850px){
+
+    #container{
+        background-color: #463227;
+        color:white;
+    }
+    /* style for first img*/
+    .banner{
+       width:100%;
+       height:auto;
+       clear:top;
+    }
+
+    #menu .banner{
+        margin-top:1em;
+    }
+    ul.nav{
+        position:sticky;
+        top:0;
+        margin:0;
+        padding:0;
+        overflow:hidden;
+        list-style-type: none;
+        background-color: #463227;
+        opacity:85%;
+        clear:both;   
+
+    }
+
+
+    li.nav{
+        float:right;
+        
+    }
+    li.nav a{
+        display:block;
+        text-align:center;
+        text-decoration:none;
+        background-color: #463227;
+        padding-top: 14px;
+        padding-left: 16px;
+        padding-right: 16px;
+        color:white;
+        font-size: large;
+        
+    }
+    li.nav a:hover{
+        color: rgb(255, 0, 13);
+        font-style: italic;
+
+    }
+    .intro{
+        text-align: center;
+        font-family: 'Architects Daughter', cursive;
+        font-size: 20px;
+        font-weight: bold;
+        background-color: #774d36;
+        margin: 2em;
+        padding:1em;
+        border-radius: 2em;
+    }
+   
+    h1{
+        text-align: center;
+        font-family: 'Raleway', sans-serif;
+        font-family: 'Work Sans', sans-serif;
+        margin:2em;
+    }
+
+    #arti{
+        display: flex;
+        flex-direction: row;
+    }
+
+    #arti article{
+        float:left;
+        text-align:center;
+        background-color: #bb886e;
+        border-radius: 2em;
+        font-family: 'Nerko One', cursive;
+        font-weight: lighter;
+        font-size: 1.5vw;
+    }
+
+    #article1{
+        margin-left:8vw;
+        margin-right:4vw;
+    }
+    #article2{
+        margin-right:8vw;
+        margin-left:4vw;
+    }
+    #arti article p{
+        text-align:center;
+    }
+
+    #arti article img, .abt_img{
+        width:70%;
+        margin-right: auto;
+        margin-left: auto;
+        
+
+    }
+
+    #arti article p.heading{
+        font-family: 'Nerko One', cursive;
+        font-weight: lighter;
+        font-size:2vw;
+        text-shadow: 3px 3px 8px #463227 ;
+    }
+
+    .heading{
+        font-family: 'Nerko One', cursive; 
+        font-size:3vw;
+    }
+
+    #menu .heading{
+        margin:0;
+        border: 5px solid rgb(255, 0, 0);
+        margin-left:30vw;
+        margin-right:30vw;
+        border-radius:1em;
+        text-shadow: 3px 3px 8px black;
+    }
+
+    table, th, td {
+        border: 1px solid rgb(189, 189, 189);
+        border-collapse: collapse;
+        
+    }
+
+    table{
+        width:100%;
+    }
+
+    tr:nth-child(even){
+        background-color: #5f4435;
+    }
+
+    tr:hover {
+        background-color: #92634b;
+    }
+
+    td,th{
+        padding-top: 4px;
+        padding-bottom:4px;
+    }
+
+    th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: rgb(209, 92, 92);
+        
+    }
+    #menus .heading, .abtheading{
+        background-color: #bb886e;
+        margin-left:30vw;
+        margin-right:30vw;
+        border-radius:3em;
+    }
+    .abtheading{
+        background-color: #bb886e;
+        margin-left:15vw;
+        margin-right:15vw;
+        border-radius:3em;
+    }
+
+    section{
+        text-align: center;
+    }
+    
+    li{
+        list-style-position: inside;
+    }
+
+    dt{
+        font-weight: bold;
+        font-size: larger;
+    }
+    
+    
+    footer{
+        clear:both;
+        text-align: center;
+        background-color: #201712;
+        margin-top: 2em;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        color:white;
+
+    }
+    footer a{
+        text-decoration: none;
+        color:white;
+
+    }
+    footer a:hover{
+        color:blue;
+    }
+    
+    .inps{
+        background-color: #463227;
+    }
+}
